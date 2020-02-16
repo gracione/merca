@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	#container{
+		background-image: url("fundo.jpg");
+		width: 100%;
+		height: 603px;
+		border:solid black;
+	}
+	#menu{
+		font-size: 30px;
+		width: 800px;
+		height: 100px;
+		float: right;
+	}
+	#menu a:active{
+		float: left;
+		margin-left: 30px;
+	}
+	#menu a:link{
+		margin-top: 20px;
+		font-family: arial;
+		color: #F0F8FF;
+		float: left;
+		margin-left: 30px;
+		text-decoration: none;
+	}
+	#menu a:hover{
+		color: #FFE4C4;
+		float: left;
+		margin-left: 30px;
+	}
+	#menu a:visited{
+		color: #b2afaf;
+		float: left;
+		margin-left: 30px;
+	}
+	#cabeleleiro{
+		margin-left: 7%;
+		margin-top: 250px;
+		width: 85%;
+		height: 250px;
+	}
+	.Scabeleleiro{
+		margin-left: 7%;
+		width: 23%;
+		height: 100%;
+		float: left;
+		border-radius: 530px;
+		border:solid  #4c4a4a;
+	}
+	#Localização,#Quem,#Preco,#Login{
+		width: 100%;
+		height: 603px;
+		border:solid 5px #FFC0CB;
+		background-color: 	#FFC0CB;
+
+	}
+	#email{
+		background-color: #FFB6C1;
+		margin: auto;
+		margin-top: 150px;
+		width: 30%;
+		height: 203px;
+		border:solid #DB7093;		
+	}
+		#email h2,#email label,#email input,#email button{
+			margin-left: 50px;
+		}
+
+</style>
+<body>
+	<div id="container">
+		<div id="menu">
+			<a href="#Localização">Localização</a>
+			<a href="#Quem">Quem Somos</a>
+			<a href="#Preco">Tabela de preços</a>
+			<a href="#Login">Login</a>
+		</div>
+		<div id="cabeleleiro">
+			<div class="Scabeleleiro">
+				<img src="logo1.png" width="100%">
+			</div>			
+			<div class="Scabeleleiro">
+				<img src="logo1.png" width="100%">
+			</div>			
+			<div class="Scabeleleiro">
+				<img src="logo1.png" width="100%">
+			</div>
+		</div>
+	</div>
+	<div id="Localização"><img src="mapa.png" width="100%" height="100%"></div>
+	<div id="Quem"><img src="quem.png" width="100%" height="100%"></div>
+	<div id="Preco"><img src="preco.png" width="100%" height="100%"></div>
+	<div id="Login">
+		<h2>Entrar com cliente</h2>
+		<div id="email">
+			<h2>Login</h2>
+			<label>Email:</label>
+			<input type="email" name="email" placeholder="Digite seu email">
+			<br><br>
+			<label>Senha:</label>
+			<input type="senha" name="senha">
+			<br><br>
+			<button type="submit" name="Entrar">Entrar</button>
+		</div>
+	</div>
+</body>
+</html>
